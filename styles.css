@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  table {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 2px;
+    line-height: normal;
+    border: 2px solid darkorchid;
+    width: 600px;
+    margin: auto;
+    box-sizing: border-box;
+    border-collapse: separate;
+  }
+  thead{
+    background-color: plum; 
+    display: table-header-group;
+    vertical-align: middle;
+    text-align: center;
+    border-bottom-color: red;
+  }
+  th {
+    display: table-cell;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  tbody {
+    vertical-align: middle;
+  }
+  tr {
+    vertical-align: inherit;
+  }
+  .code {
+    font-family: monospace;
+    background-color: beige;
+  }
+  body {
+    background-color: gainsboro;
+    font-family: monospace, 'Times New Roman', serif;
+    font-size: 15px;
+  }
+  td {
+    border-top: 1px solid purple;
+    border-bottom: 1px solid purple;
+    padding: 8px;
+  }
+  td ul {
+    word-spacing: 2px;
+  }
